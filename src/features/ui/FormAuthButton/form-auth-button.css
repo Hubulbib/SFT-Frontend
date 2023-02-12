@@ -1,0 +1,14 @@
+.form__auth__button {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #006944;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    transition: all 0.2s;
+}
+
+.form__auth__button:hover {
+    background-color: #151617;
+}
