@@ -1,0 +1,7 @@
+.auth-page {
+    background-color: #151617;
+    min-height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
