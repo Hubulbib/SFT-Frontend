@@ -1,0 +1,17 @@
+.account-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.account-info img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.account-info h1 {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
