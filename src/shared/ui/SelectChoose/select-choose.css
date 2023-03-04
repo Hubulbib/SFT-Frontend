@@ -1,0 +1,10 @@
+.select-choose {
+    background-color: #1E1F22;
+    font-size: 20px;
+    color: white;
+    padding: 20px 10px;
+    width: 550px;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+}

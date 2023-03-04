@@ -1,0 +1,17 @@
+.search-sku-page__content__by-number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.search-sku-page__content__by-number input{
+    margin-bottom: 25px;
+}
+
+.search-sku-page__content__by-number h1 {
+    text-align: center;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 50px;
+}

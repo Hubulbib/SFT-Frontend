@@ -5,4 +5,8 @@ import { NavChart } from './ui/NavChart/NavChart'
 import { NavAdminEmployeeBase } from './ui/NavAdminEmployeeBase/NavAdminEmployeeBase'
 import { NavAdminProjectBase } from './ui/NavAdminProjectBase/NavAdminProjectBase'
 
+import { HeaderTime } from './ui/HeaderTime/HeaderTime'
+
 export { AccountInfo, NavMainMenu, NavResearchBase, NavChart, NavAdminEmployeeBase, NavAdminProjectBase }
+
+export { HeaderTime }
