@@ -1,0 +1,12 @@
+.button-green-black {
+    cursor: pointer;
+    background-color: transparent;
+    padding: 10px 50px;
+    border: 1px solid #006944;
+    border-radius: 15px;
+    color: white;
+    transition: all 0.3s;
+}
+.button-green-black:hover {
+    background-color: #006944;
+}

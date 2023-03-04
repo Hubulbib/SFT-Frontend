@@ -1,0 +1,28 @@
+.nav-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    transition: all 0.2s;
+    border-radius: 10px;
+}
+.nav-item:hover {
+    background-color: grey;
+}
+
+.nav-item img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.nav-item div {
+    width: 100%;
+}
+
+.nav-item div h1 {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    text-align: left;
+}

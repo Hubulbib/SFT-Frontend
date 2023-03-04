@@ -1,0 +1,28 @@
+.create-sku-page__content {
+    padding: 90px 300px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-sku-page__content__field {
+    margin-bottom: 70px;
+}
+
+.create-sku-page__content__field h1 {
+    text-align: center;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 50px;
+}
+
+.create-sku-page__content__field ul {
+    list-style-type: none;
+}
+.create-sku-page__content__field ul li {
+    margin-bottom: 50px;
+}
+.create-sku-page__content__field ul li:last-child {
+    margin-bottom: 0;
+}

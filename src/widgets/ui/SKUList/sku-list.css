@@ -1,0 +1,13 @@
+.sku-list {
+    list-style-type: none;
+    width: 100%;
+    padding: 15px 0;
+}
+
+.sku-list li {
+    margin-bottom: 15px;
+}
+
+.sku-list li:last-child {
+    margin-bottom: 0;
+}
