@@ -1,0 +1,17 @@
+.project-textarea {
+    resize: none;
+    background: #1E1F22;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+.project-textarea:focus {
+    outline: none;
+}
+
+.project-textarea::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}

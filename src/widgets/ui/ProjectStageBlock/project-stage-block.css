@@ -1,0 +1,16 @@
+.project-stage-block__title {
+    font-size: 24px;
+    margin-bottom: 35px;
+}
+
+.project-stage-block__list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+.project-stage-block__list li {
+    margin-right: 25px;
+}
+.project-stage-block__list li:last-child {
+    margin-right: 0;
+}

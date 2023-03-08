@@ -1,0 +1,21 @@
+.workplace-project-agreement {
+    padding: 60px 60px 40px;
+}
+
+.workplace-project-agreement > h1,
+.workplace-project-agreement > .project-member {
+    margin-bottom: 20px;
+}
+
+.workplace-project-agreement > .project-textarea {
+    margin-bottom: 30px;
+}
+
+.workplace-project-agreement > .agreement-data {
+    margin-bottom: 40px;
+}
+
+.workplace-project-agreement__button {
+    display: flex;
+    justify-content: center;
+}

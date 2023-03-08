@@ -7,6 +7,11 @@ import { NavAdminProjectBase } from './ui/NavAdminProjectBase/NavAdminProjectBas
 
 import { HeaderTime } from './ui/HeaderTime/HeaderTime'
 
+import { ProjectResponsibleTitle } from './ui/ProjectResponsibleTitle/ProjectResponsibleTitle'
+import { ProjectDescription } from './ui/ProjectDescription/ProjectDescription'
+
 export { AccountInfo, NavMainMenu, NavResearchBase, NavChart, NavAdminEmployeeBase, NavAdminProjectBase }
 
 export { HeaderTime }
+
+export { ProjectResponsibleTitle, ProjectDescription }

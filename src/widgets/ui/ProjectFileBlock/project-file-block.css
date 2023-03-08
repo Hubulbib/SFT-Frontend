@@ -1,0 +1,20 @@
+.project-file-block {
+
+}
+
+.project-file-block__title {
+    font-size: 24px;
+    margin-bottom: 35px;
+}
+
+.project-file-block__list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+.project-file-block__list li {
+    margin-right: 25px;
+}
+.project-file-block__list li:last-child {
+    margin-right: 0;
+}

@@ -1,0 +1,12 @@
+.workplace-tab {
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 6px;
+    transition: all 0.2s;
+}
+
+.workplace-tab:hover {
+    background-color: #323234;
+}
