@@ -1,0 +1,31 @@
+.change-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5px;
+    border-top: 1px solid #A5A5A7;
+}
+
+.change-item__title {
+    display: flex;
+    align-items: center;
+}
+.change-item__title span {
+    background: #006944;
+    width: 20px;
+    height: 20px;
+    border-radius: 25px;
+    margin-right: 5px;
+}
+.change-item__title h1 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.change-item__info {
+    font-size: 16px;
+}
+
+.change-item__date {
+    font-size: 14px;
+}

@@ -1,0 +1,11 @@
+.my-changes-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.my-changes-title h1 {
+    font-size: 22px;
+    font-weight: bold;
+}

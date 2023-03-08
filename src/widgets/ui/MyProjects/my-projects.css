@@ -1,0 +1,20 @@
+.my-projects {
+    background: #1E1F22;
+    border: 1px solid #A5A5A7;
+    border-radius: 10px;
+    padding: 20px;
+    height: 420px;
+}
+
+.my-projects > h1 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.my-projects ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 40px;
+    list-style-type: none;
+}

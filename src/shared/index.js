@@ -22,11 +22,18 @@ import {ButtonWithIcon} from './ui/ButtonWithIcon/ButtonWithIcon'
 import {StatusUpdate} from './ui/StatusUpdate/StatusUpdate'
 import {JoinMember} from './ui/JoinMember/JoinMember'
 import {StatusInfo} from './ui/StatusInfo/StatusInfo'
+import {ProjectUnit} from './ui/ProjectUnit/ProjectUnit'
+import {TextareaNoBorder} from './ui/TextareaNoBorder/TextareaNoBorder'
+import {InputSearchSmall} from './ui/InputSearchSmall/InputSearchSmall'
+import {ChangeItem} from './ui/ChangeItem/ChangeItem'
+import {ButtonNoBorder} from './ui/ButtonNoBorder/ButtonNoBorder'
+import {Icon} from './ui/Icon/Icon'
 
 export {
   UsernameInput, PasswordInput, SftLogo, NavItem, BurgerMenuIcon, SelectChoose,
   ButtonGreenBlack, SKUInput, SKUPageTitle, SKUListItem, WorkplaceTitle, WorkplaceTab,
   AddMember, ProjectMember, FileCard, StageCard, ProjectResponsible, ProjectTextarea,
   AgreementTextarea, AgreementTextareaColor, ButtonWithIcon, StatusUpdate, JoinMember,
-  StatusInfo
+  StatusInfo, ProjectUnit, TextareaNoBorder, InputSearchSmall, ChangeItem,
+  ButtonNoBorder, Icon
 }

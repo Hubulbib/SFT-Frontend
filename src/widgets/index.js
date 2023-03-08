@@ -7,8 +7,12 @@ import { SKUList } from './ui/SKUList/SKUList'
 import { WorkplaceBar } from './ui/WorkplaceBar/WorkplaceBar'
 import { WorkplaceOverview } from './ui/WorkplaceOverview/WorkplaceOverview'
 import { WorkplaceProject } from './ui/WorkplaceProject/WorkplaceProject'
+import { MyProjects } from './ui/MyProjects/MyProjects'
+import { Notebook } from './ui/Notebook/Notebook'
+import { SearchSKUMainMenu } from './ui/SearchSKUMainMenu/SearchSKUMainMenu'
+import { MyChanges } from './ui/MyChanges/MyChanges'
 
 export {
   AuthForm, NavMenu, SKUCreateForm, SearchSKUByNumber, SearchSKUBySelect, SKUList, WorkplaceBar,
-  WorkplaceOverview, WorkplaceProject
+  WorkplaceOverview, WorkplaceProject, MyProjects, Notebook, MyChanges, SearchSKUMainMenu
 }

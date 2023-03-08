@@ -1,0 +1,13 @@
+.button-no-border {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: all 0.2s;
+}
+
+.button-no-border:hover {
+    background-color: #323234;
+}

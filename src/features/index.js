@@ -5,8 +5,10 @@ import {SearchSKUBySelectButton} from './ui/SearchSKUBySelectButton/SearchSKUBYS
 import {WorkplaceTabBar} from './ui/WorkplaceTabBar/WorkplaceTabBar'
 import {AddMemberButton} from './ui/AddMemeberButton/AddMemberButton'
 import {AgreementButton} from './ui/AgreementButton/AgreementButton'
+import {ShowMoreButton} from './ui/ShowMoreButton/ShowMoreButton'
+import {SearchChanges} from './ui/SearchChanges/SearchChanges'
 
 export {
   FormAuthButton, CreateSKUButton, SearchSKUByNumberButton, SearchSKUBySelectButton, WorkplaceTabBar,
-  AddMemberButton, AgreementButton
+  AddMemberButton, AgreementButton, ShowMoreButton, SearchChanges
 }

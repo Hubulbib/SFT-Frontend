@@ -1,0 +1,11 @@
+.textarea-no-border {
+    resize: none;
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    background-color: transparent;
+}
+
+.textarea-no-border:focus {
+    outline: none;
+}
