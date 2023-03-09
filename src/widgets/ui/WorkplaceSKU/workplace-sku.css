@@ -1,0 +1,16 @@
+.workplace-sku {
+    min-height: calc(100% - 45px);
+    background-color: #1E1F22;
+    padding: 60px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.workplace-sku > .project-textarea {
+    margin-bottom: 55px;
+}
+
+.workplace-sku > .sku-table {
+    margin-bottom: 140px;
+}

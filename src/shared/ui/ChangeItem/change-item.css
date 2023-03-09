@@ -1,9 +1,14 @@
 .change-item {
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 5px;
     border-top: 1px solid #A5A5A7;
+    transition: all 0.2s;
+}
+.change-item:hover {
+    background-color: #323234;
 }
 
 .change-item__title {

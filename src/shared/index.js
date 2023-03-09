@@ -28,6 +28,8 @@ import {InputSearchSmall} from './ui/InputSearchSmall/InputSearchSmall'
 import {ChangeItem} from './ui/ChangeItem/ChangeItem'
 import {ButtonNoBorder} from './ui/ButtonNoBorder/ButtonNoBorder'
 import {Icon} from './ui/Icon/Icon'
+import {InputNoBorder} from './ui/InputNoBorder/InputNoBorder'
+import {PickColor} from './ui/PickColor/PickColor'
 
 export {
   UsernameInput, PasswordInput, SftLogo, NavItem, BurgerMenuIcon, SelectChoose,
@@ -35,5 +37,5 @@ export {
   AddMember, ProjectMember, FileCard, StageCard, ProjectResponsible, ProjectTextarea,
   AgreementTextarea, AgreementTextareaColor, ButtonWithIcon, StatusUpdate, JoinMember,
   StatusInfo, ProjectUnit, TextareaNoBorder, InputSearchSmall, ChangeItem,
-  ButtonNoBorder, Icon
+  ButtonNoBorder, Icon, InputNoBorder, PickColor
 }

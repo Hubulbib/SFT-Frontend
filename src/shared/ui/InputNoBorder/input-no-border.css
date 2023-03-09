@@ -1,0 +1,11 @@
+.input-no-border {
+    font-size: 24px;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+}
+
+.input-no-border:focus {
+    outline: none;
+}

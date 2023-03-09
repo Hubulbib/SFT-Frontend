@@ -1,9 +1,9 @@
 import React from 'react'
 import './change-item.css'
 
-export const ChangeItem = ({statusColor = 'white', sku = '', info = '', date = '', isLast = false}) => {
+export const ChangeItem = ({statusColor = 'white', sku = '', info = '', date = '', isLast = false, onClick}) => {
   return (
-    <div className='change-item' style={isLast ? {borderBottom: '1px solid #A5A5A7'} : null}>
+    <div className='change-item' style={isLast ? {borderBottom: '1px solid #A5A5A7'} : null} onClick={onClick}>
       <div className='change-item__title'>
         <span style={{backgroundColor: statusColor}}/>
         <h1>SKU {sku}</h1>
