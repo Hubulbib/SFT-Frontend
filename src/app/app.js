@@ -2,7 +2,7 @@ import React from 'react'
 import { BrowserRouter } from 'react-router-dom'
 import { HeaderTime } from '../entities'
 import { NavMenu } from '../widgets'
-import { MainMenuPage } from '../pages'
+import { routes } from './routes/routes'
 import './app.css'
 
 export const App = () => {
@@ -13,7 +13,7 @@ export const App = () => {
         <NavMenu />
         <div style={{width: '100%'}}>
           <HeaderTime />
-          <MainMenuPage />
+          {routes()}
         </div>
       </div>
     </BrowserRouter>

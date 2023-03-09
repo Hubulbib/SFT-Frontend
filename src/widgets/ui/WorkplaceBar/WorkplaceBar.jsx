@@ -1,6 +1,7 @@
 import React from 'react'
 import { WorkplaceTitle } from '../../../shared'
 import { WorkplaceTabBar } from '../../../features'
+
 export const WorkplaceBar = () => {
   return (
     <div className='workplace-bar'>

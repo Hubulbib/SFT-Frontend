@@ -8,7 +8,13 @@ import {AgreementButton} from './ui/AgreementButton/AgreementButton'
 import {ShowMoreButton} from './ui/ShowMoreButton/ShowMoreButton'
 import {SearchChanges} from './ui/SearchChanges/SearchChanges'
 
+import {WorkplaceNavigationStore} from './lib/stores/WorkplaceNavigationStore'
+
 export {
   FormAuthButton, CreateSKUButton, SearchSKUByNumberButton, SearchSKUBySelectButton, WorkplaceTabBar,
   AddMemberButton, AgreementButton, ShowMoreButton, SearchChanges
+}
+
+export {
+  WorkplaceNavigationStore
 }

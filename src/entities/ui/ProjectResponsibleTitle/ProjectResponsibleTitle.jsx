@@ -1,5 +1,5 @@
 import React from 'react'
-import {ProjectResponsible} from '../../../shared/index'
+import {ProjectResponsible} from '../../../shared'
 
 export const ProjectResponsibleTitle = () => {
   return (

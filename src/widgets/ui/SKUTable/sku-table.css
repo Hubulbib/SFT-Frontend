@@ -1,0 +1,33 @@
+.sku-table {
+    width: 100%;
+    background-color: #1e1f22;
+    border-collapse: collapse;
+    border: 1px solid white;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.sku-table td, .sku-table th {
+    border: 1px solid white;
+}
+
+.sku-table thead tr th, .sku-table tbody tr:nth-child(1), .sku-table tbody tr:nth-child(2),
+.sku-table tbody tr:nth-child(3) {
+    font-size: 32px;
+}
+.sku-table tbody tr:nth-child(4), .sku-table tbody tr:nth-child(5),
+.sku-table tbody tr:nth-child(6) {
+    font-size: 20px;
+}
+
+.sku-table tbody tr:nth-child(1), .sku-table tbody tr:nth-child(2) {
+    height: 60px;
+}
+.sku-table tbody tr:nth-child(3), .sku-table tbody tr:nth-child(5),
+.sku-table tbody tr:nth-child(6), .sku-table tbody tr:nth-child(7){
+    height: 100px;
+}
+
+.sku-table tbody tr td {
+    text-align: center;
+}
