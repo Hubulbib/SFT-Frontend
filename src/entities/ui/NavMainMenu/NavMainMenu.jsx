@@ -5,7 +5,7 @@ import MainMenuIcon from '../../lib/assets/nav-main-menu-icon.svg'
 
 export const NavMainMenu = () => {
   return (
-    <NavLink to='/'>
+    <NavLink to='/main'>
       <NavItem icon={MainMenuIcon} alt={'main-menu'} title={'Главное меню'}/>
     </NavLink>
   )
