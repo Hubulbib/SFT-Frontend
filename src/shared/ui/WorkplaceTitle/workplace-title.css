@@ -1,0 +1,17 @@
+.workplace-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.workplace-title h1 {
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.workplace-title span {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+}

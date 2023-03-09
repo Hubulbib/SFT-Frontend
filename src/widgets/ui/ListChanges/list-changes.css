@@ -1,0 +1,9 @@
+.list-changes {
+    padding: 10px 30px;
+}
+
+.list-changes ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 10px;
+}

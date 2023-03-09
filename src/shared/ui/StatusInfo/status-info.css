@@ -1,0 +1,19 @@
+.status-info {
+    border: 1px solid #A5A5A7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+.status-info span {
+    border-radius: 25px;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.status-info h1 {
+    font-size: 16px;
+}

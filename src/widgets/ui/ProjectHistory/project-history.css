@@ -1,0 +1,24 @@
+.project-history {
+    padding: 20px 60px 40px;
+    background-color: #2E2E30;
+}
+
+.project-history__title {
+    color: #A5A5A7;
+    font-size: 24px;
+}
+
+.project-history__status-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 10px;
+}
+
+.project-history > h1 {
+    margin-bottom: 20px;
+}
+.project-history > .project-history__status-info {
+    margin-bottom: 100px;
+}

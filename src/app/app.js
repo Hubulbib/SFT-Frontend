@@ -1,7 +1,8 @@
 import React from 'react'
 import { BrowserRouter } from 'react-router-dom'
-import { NavMenu } from '../widgets'
 import { HeaderTime } from '../entities'
+import { NavMenu } from '../widgets'
+import { MainMenuPage } from '../pages'
 import './app.css'
 
 export const App = () => {
@@ -12,6 +13,7 @@ export const App = () => {
         <NavMenu />
         <div style={{width: '100%'}}>
           <HeaderTime />
+          <MainMenuPage />
         </div>
       </div>
     </BrowserRouter>

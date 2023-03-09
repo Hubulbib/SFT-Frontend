@@ -1,0 +1,44 @@
+.file-card {
+    height: 284px;
+    margin-bottom: 80px;
+}
+
+.file-card__info {
+    cursor: pointer;
+    border-radius: 10px 10px 0 0;
+    background-color: #222324;
+    height: 64px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.file-card__info:hover {
+    background-color: #323234;
+}
+
+.file-card__info__icon {
+    margin-right: 15px;
+}
+.file-card__info__icon img {
+    height: 32px;
+    width: 32px;
+}
+
+.file-card__info__title h1:first-child{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.file-card__info__title h1:last-child {
+    font-size: 12px;
+    color: grey;
+}
+
+.file-card__preview {
+    height: 220px;
+}
+.file-card__preview div {
+    background-color: #2E2E30;
+    height: 100%;
+}

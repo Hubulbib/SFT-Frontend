@@ -1,0 +1,20 @@
+.project-member-block {
+    margin-bottom: 80px;
+}
+
+.project-member-block__title {
+    font-size: 24px;
+    margin-bottom: 35px;
+}
+
+.project-member-block__list {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+.project-member-block__list li {
+    margin-right: 25px;
+}
+.project-member-block__list li:last-child {
+    margin-right: 0;
+}

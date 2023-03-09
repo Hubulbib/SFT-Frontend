@@ -1,0 +1,23 @@
+.agreement-data {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr) repeat(2, 0.5fr) repeat(3, 1fr);
+}
+
+.agreement-data textarea:first-child { grid-area: 1 / 1 / 2 / 5; }
+.agreement-data textarea:nth-child(2) { grid-area: 2 / 1 / 3 / 3; }
+.agreement-data textarea:nth-child(3) { grid-area: 2 / 3 / 3 / 5; }
+.agreement-data textarea:nth-child(4) { grid-area: 3 / 1 / 4 / 2; }
+.agreement-data textarea:nth-child(5) { grid-area: 3 / 2 / 4 / 3; }
+.agreement-data textarea:nth-child(6) { grid-area: 3 / 3 / 4 / 4; }
+.agreement-data textarea:nth-child(7) { grid-area: 3 / 4 / 4 / 5; }
+.agreement-data textarea:nth-child(8) { grid-area: 4 / 1 / 5 / 2; }
+.agreement-data textarea:nth-child(9) { grid-area: 4 / 2 / 5 / 3; }
+.agreement-data textarea:nth-child(10) { grid-area: 4 / 3 / 5 / 4; }
+.agreement-data textarea:nth-child(11) { grid-area: 4 / 4 / 5 / 5; }
+.agreement-data textarea:nth-child(12) { grid-area: 5 / 1 / 6 / 2; }
+.agreement-data textarea:nth-child(13) { grid-area: 5 / 2 / 6 / 3; }
+.agreement-data textarea:nth-child(14) { grid-area: 5 / 3 / 6 / 4; }
+.agreement-data textarea:nth-child(15) { grid-area: 5 / 4 / 6 / 5; }
+.agreement-data textarea:nth-child(16) { grid-area: 6 / 1 / 7 / 5; }
+.agreement-data textarea:nth-child(17) { grid-area: 7 / 1 / 8 / 5; }
