@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {
   AccountInfo,
   NavAdminEmployeeBase,
@@ -11,11 +11,14 @@ import { BurgerMenuIcon, SftLogo } from '../../../shared'
 import './nav-menu.css'
 
 export const NavMenu = () => {
+
+  const [active, setActive] = useState(false)
+
   return (
-    <nav className='nav-menu'>
+    <nav className={active ? 'nav-menu active' : 'nav-menu'}>
       <div className='nav-menu__header'>
-        <div><BurgerMenuIcon /></div>
-        <SftLogo style={{width: '150px'}}/>
+        <div onClick={() => setActive(prev => !prev)}><BurgerMenuIcon /></div>
+        <SftLogo />
       </div>
       <AccountInfo />
       <ul className='nav-menu__links'>

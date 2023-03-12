@@ -30,6 +30,7 @@ import {ButtonNoBorder} from './ui/ButtonNoBorder/ButtonNoBorder'
 import {Icon} from './ui/Icon/Icon'
 import {InputNoBorder} from './ui/InputNoBorder/InputNoBorder'
 import {PickColor} from './ui/PickColor/PickColor'
+import PersonImage from './lib/assets/person-image.jpg'
 
 export {
   UsernameInput, PasswordInput, SftLogo, NavItem, BurgerMenuIcon, SelectChoose,
@@ -37,5 +38,5 @@ export {
   AddMember, ProjectMember, FileCard, StageCard, ProjectResponsible, ProjectTextarea,
   AgreementTextarea, AgreementTextareaColor, ButtonWithIcon, StatusUpdate, JoinMember,
   StatusInfo, ProjectUnit, TextareaNoBorder, InputSearchSmall, ChangeItem,
-  ButtonNoBorder, Icon, InputNoBorder, PickColor
+  ButtonNoBorder, Icon, InputNoBorder, PickColor, PersonImage
 }

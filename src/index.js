@@ -1,18 +1,17 @@
-import React, { createContext } from 'react'
+import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { App } from './app/app'
-import { WorkplaceNavigationStore } from './features'
+import { Context } from './shared/lib/context/context'
+import { WorkplaceNavigationStore } from './shared/lib/stores/WorkplaceNavigationStore'
+import { WorkplaceStore } from './shared/lib/stores/WorkplaceStore'
 
 const workplaceNavigationStore = new WorkplaceNavigationStore()
-
-export const Context = createContext({
-  workplaceNavigationStore
-})
+const workplaceStore = new WorkplaceStore()
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
   <Context.Provider value={{
-    workplaceNavigationStore
+    workplaceNavigationStore, workplaceStore
   }}>
     <App />
   </Context.Provider>

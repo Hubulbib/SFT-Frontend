@@ -1,6 +1,12 @@
 .join-member {
     padding: 10px;
     display: flex;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+
+.join-member:hover {
+    background-color: #54545B;
 }
 
 .join-member__left {

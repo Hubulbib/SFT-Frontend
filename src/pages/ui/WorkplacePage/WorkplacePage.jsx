@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import { observer } from 'mobx-react-lite'
 import { WorkplaceChoose } from '../../lib/functions/workplace-choose'
 import { WorkplaceBar } from '../../../widgets'
-import { Context } from '../../../index'
+import { Context } from '../../../shared/lib/context/context'
 import './workplace-page.css'
 
 export const WorkplacePage = observer(() => {

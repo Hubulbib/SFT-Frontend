@@ -5,6 +5,7 @@
     align-items: center;
     padding: 15px 20px;
     border-radius: 10px;
+    transition: all 0.2s;
 }
 
 .status-info span {
@@ -16,4 +17,8 @@
 
 .status-info h1 {
     font-size: 16px;
+}
+
+.status-info:hover {
+    background-color: #54545B;
 }

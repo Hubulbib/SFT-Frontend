@@ -5,7 +5,7 @@ import ResearchBaseIcon from '../../lib/assets/nav-research-base-icon.svg'
 
 export const NavResearchBase = () => {
   return (
-    <NavLink to='/'>
+    <NavLink to='/research-base'>
       <NavItem icon={ResearchBaseIcon} alt={'research-base'} title={'База исследований'}/>
     </NavLink>
   )

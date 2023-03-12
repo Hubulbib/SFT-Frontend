@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { observer } from 'mobx-react-lite'
 import { WorkplaceTab } from '../../../shared'
-import { Context } from '../../../index'
+import { Context } from '../../../shared/lib/context/context'
 import './workplace-tab-bar.css'
 
 export const WorkplaceTabBar = observer(() => {

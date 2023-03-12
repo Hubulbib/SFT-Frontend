@@ -1,0 +1,11 @@
+.research-base {
+    min-height: calc(100% - 45px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E1F22;
+}
+
+.research-base > h1 {
+    font-size: 48px;
+}

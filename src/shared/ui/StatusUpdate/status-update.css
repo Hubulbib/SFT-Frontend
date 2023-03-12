@@ -1,6 +1,12 @@
 .status-update {
     padding: 10px;
     display: flex;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+
+.status-update:hover {
+    background-color: #54545B;
 }
 
 .status-update__left {

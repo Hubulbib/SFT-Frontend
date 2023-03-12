@@ -5,7 +5,7 @@ import ChartIcon from '../../lib/assets/nav-chart-icon.svg'
 
 export const NavChart = () => {
   return (
-    <NavLink to='/'>
+    <NavLink to='/charts'>
       <NavItem icon={ChartIcon} alt={'chart'} title={'Графики'}/>
     </NavLink>
   )

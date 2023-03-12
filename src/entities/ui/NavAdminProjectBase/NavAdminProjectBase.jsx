@@ -5,7 +5,7 @@ import ProjectBaseIcon from '../../lib/assets/nav-admin-project-base.svg'
 
 export const NavAdminProjectBase = () => {
   return (
-    <NavLink to='/'>
+    <NavLink to='/project-base'>
       <NavItem icon={ProjectBaseIcon} alt={'project-base'} title={'База проектов'}/>
     </NavLink>
   )

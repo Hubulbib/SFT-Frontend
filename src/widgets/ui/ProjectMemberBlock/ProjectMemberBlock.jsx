@@ -1,6 +1,7 @@
 import React from 'react'
 import { ProjectMember } from '../../../shared'
 import { AddMemberButton } from '../../../features'
+import { PersonImage } from '../../../shared'
 import './project-member-block.css'
 
 export const ProjectMemberBlock = () => {
@@ -9,8 +10,8 @@ export const ProjectMemberBlock = () => {
       <h1 className='project-member-block__title'>Участники проекта</h1>
       <ul className='project-member-block__list'>
         <li><AddMemberButton /></li>
-        <li><ProjectMember name={'Иванов Сергей'}/></li>
-        <li><ProjectMember name={'Петров Иван'}/></li>
+        <li><ProjectMember image={PersonImage} name={'Иванов Сергей'}/></li>
+        <li><ProjectMember image={PersonImage} name={'Петров Иван'}/></li>
       </ul>
     </div>
   )

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navigate, Route, Routes } from 'react-router-dom'
-import { MainMenuPage, SearchSKUPage, WorkplacePage } from '../../pages'
+import { MainMenuPage, ResearchBasePage, SearchSKUPage, WorkplacePage } from '../../pages'
 
 export const routes = () => {
   return (
@@ -8,6 +8,10 @@ export const routes = () => {
       <Route path='/main' element={<MainMenuPage />}/>
       <Route path='/search-sku' element={<SearchSKUPage />}/>
       <Route path='/workplace' element={<WorkplacePage />}/>
+      <Route path='/research-base' element={<ResearchBasePage />} />
+      <Route path='/charts' element={<ResearchBasePage />} />
+      <Route path='/employee-base' element={<ResearchBasePage />} />
+      <Route path='/project-base' element={<ResearchBasePage />} />
       <Route path='*' element={<Navigate to={'/main'} />}/>
     </Routes>
   )

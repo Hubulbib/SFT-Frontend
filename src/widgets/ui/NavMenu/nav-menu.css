@@ -3,6 +3,37 @@
     padding: 10px 20px 30px;
     max-width: 300px;
     min-height: 100vh;
+    margin: 0 auto;
+}
+.nav-menu.active .nav-menu__header {
+    justify-content: center;
+}
+.nav-menu.active .nav-menu__header div {
+    margin-right: 0;
+}
+.nav-menu.active .sft-logo {
+    width: 0;
+}
+.nav-menu.active .account-info{
+    justify-content: center;
+}
+.nav-menu.active .account-info img{
+    margin-right: 0;
+}
+.nav-menu.active .account-info h1{
+    display: none;
+}
+.nav-menu.active .nav-menu__links .nav-item{
+    justify-content: center;
+}
+.nav-menu.active .nav-menu__links .nav-item div{
+    display: none;
+}
+.nav-menu.active .nav-menu__links .nav-item img {
+    margin-right: 0;
+}
+.nav-menu.active .admin-h1 {
+    font-size: 12px;
 }
 
 .nav-menu__header {
@@ -21,7 +52,10 @@
     margin-right: 10px;
 }
 .nav-menu__header div:hover {
-    background-color: grey;
+    background-color: #54545B;
+}
+.sft-logo {
+    width: 150px;
 }
 
 .nav-menu__links {

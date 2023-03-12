@@ -4,7 +4,7 @@
     margin-bottom: 20px;
 }
 
-.workplace-title h1 {
+.workplace-title h1:first-child {
     color: white;
     font-size: 20px;
     margin-right: 10px;
@@ -14,4 +14,9 @@
     width: 25px;
     height: 25px;
     border-radius: 50px;
+    margin-right: 10px;
+}
+
+.workplace-title h1:last-child {
+    font-size: 20px;
 }

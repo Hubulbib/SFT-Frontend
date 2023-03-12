@@ -5,7 +5,7 @@ import EmployeeBaseIcon from '../../lib/assets/nav-admin-employee-base-icon.svg'
 
 export const NavAdminEmployeeBase = () => {
   return (
-    <NavLink to='/'>
+    <NavLink to='/employee-base'>
       <NavItem icon={EmployeeBaseIcon} alt={'employee-base'} title={'База сотрудников'}/>
     </NavLink>
   )

@@ -8,7 +8,8 @@ import {AgreementButton} from './ui/AgreementButton/AgreementButton'
 import {ShowMoreButton} from './ui/ShowMoreButton/ShowMoreButton'
 import {SearchChanges} from './ui/SearchChanges/SearchChanges'
 
-import {WorkplaceNavigationStore} from './lib/stores/WorkplaceNavigationStore'
+import {WorkplaceNavigationStore} from '../shared/lib/stores/WorkplaceNavigationStore'
+import {WorkplaceStore} from '../shared/lib/stores/WorkplaceStore'
 
 export {
   FormAuthButton, CreateSKUButton, SearchSKUByNumberButton, SearchSKUBySelectButton, WorkplaceTabBar,
@@ -16,5 +17,5 @@ export {
 }
 
 export {
-  WorkplaceNavigationStore
+  WorkplaceNavigationStore, WorkplaceStore
 }
