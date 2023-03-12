@@ -10,8 +10,8 @@ export const ProjectMemberBlock = () => {
       <h1 className='project-member-block__title'>Участники проекта</h1>
       <ul className='project-member-block__list'>
         <li><AddMemberButton /></li>
-        <li><ProjectMember image={PersonImage} name={'Иванов Сергей'}/></li>
-        <li><ProjectMember image={PersonImage} name={'Петров Иван'}/></li>
+        <li><ProjectMember image={PersonImage} name={'Бартеньев Никита'}/></li>
+        <li><ProjectMember image={PersonImage} name={'Петренко Алексей'}/></li>
       </ul>
     </div>
   )
