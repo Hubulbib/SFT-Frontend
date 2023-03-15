@@ -1,21 +1,30 @@
-import React from 'react'
+import React, { useEffect, useContext } from 'react'
 import { BrowserRouter } from 'react-router-dom'
-import { HeaderTime } from '../entities'
-import { NavMenu } from '../widgets'
+import { observer } from 'mobx-react-lite'
 import { routes } from './routes/routes'
+import { Context } from '../shared'
 import './app.css'
 
-export const App = () => {
+export const App = observer(() => {
+
+  const { authStore: {isAuth, checkAuth, user, isLoadingAuth} } = useContext(Context)
+
+  useEffect(() => {
+    if (localStorage.getItem('token')) {
+      checkAuth()
+    }
+  }, [checkAuth])
+
+  if (isLoadingAuth) {
+    return (
+      <>
+      </>
+    )
+  }
 
   return (
     <BrowserRouter>
-      <div style={{display:'flex'}}>
-        <NavMenu />
-        <div style={{width: '100%'}}>
-          <HeaderTime />
-          {routes()}
-        </div>
-      </div>
+      {routes(isAuth, user)}
     </BrowserRouter>
   )
-}
+})

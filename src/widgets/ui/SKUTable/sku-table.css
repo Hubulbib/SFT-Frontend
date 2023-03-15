@@ -3,7 +3,6 @@
     background-color: #1e1f22;
     border-collapse: collapse;
     border: 1px solid white;
-    color: #ffffff;
     border-radius: 10px;
 }
 
@@ -11,13 +10,19 @@
     border: 1px solid white;
 }
 
-.sku-table thead tr th, .sku-table tbody tr:nth-child(1), .sku-table tbody tr:nth-child(2),
-.sku-table tbody tr:nth-child(3) {
-    font-size: 32px;
+.sku-table thead tr th {
+    padding: 10px 0;
 }
-.sku-table tbody tr:nth-child(4), .sku-table tbody tr:nth-child(5),
-.sku-table tbody tr:nth-child(6) {
+
+.sku-table thead tr th, .sku-table tbody tr:nth-child(1), .sku-table tbody tr:nth-child(2),
+.sku-table tbody tr:nth-child(3), .sku-table tbody tr:nth-child(4),
+.sku-table tbody tr:nth-child(5), .sku-table tbody tr:nth-child(6) {
     font-size: 20px;
+    color: #A5A5A7;
+}
+
+.sku-table tbody tr:nth-child(1) td:nth-child(1) {
+    font-size: 28px;
 }
 
 .sku-table tbody tr:nth-child(1), .sku-table tbody tr:nth-child(2) {
@@ -29,5 +34,10 @@
 }
 
 .sku-table tbody tr td {
+    color: #A5A5A7;
     text-align: center;
+}
+
+.sku-table tbody tr td:last-child {
+    color: white;
 }

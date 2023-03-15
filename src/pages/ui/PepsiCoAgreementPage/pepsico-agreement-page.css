@@ -1,0 +1,8 @@
+.pepsico-agreement-page {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    background-color: #1E1F22;
+    min-height: calc(100% - 45px);
+    padding: 50px 80px;
+}

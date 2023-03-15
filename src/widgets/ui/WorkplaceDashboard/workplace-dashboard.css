@@ -1,0 +1,6 @@
+.workplace-dashboard {
+    min-height: calc(100% - 145px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

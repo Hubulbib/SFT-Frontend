@@ -1,0 +1,24 @@
+.pepsico-main-menu-page {
+    padding: 50px;
+    background: rgb(21,22,23);
+    background: linear-gradient(29deg, rgba(21,22,23,1) 50%, rgba(33,55,47,1) 80%);
+    height: calc(100% - 45px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pepsico-main-menu-page__content {
+    border-radius: 10px;
+    background-color: #1E1F22;
+    border: 1px solid #A5A5A7;
+    display: flex;
+    height: 840px;
+}
+
+.pepsico-main-menu-page__content__search {
+    width: 50%;
+    padding: 50px 150px 50px;
+    border-right: 1px solid #54545B;
+}

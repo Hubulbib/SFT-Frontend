@@ -1,5 +1,5 @@
 .project-file-block {
-
+    margin-bottom: 80px;
 }
 
 .project-file-block__title {
@@ -9,6 +9,7 @@
 
 .project-file-block__list {
     display: flex;
+    align-items: center;
     list-style-type: none;
     padding: 0;
 }

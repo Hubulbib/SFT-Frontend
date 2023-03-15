@@ -6,7 +6,7 @@ export const AccountInfo = () => {
   return (
     <div className='account-info'>
       <img src={PersonImage} alt='account-avatar'/>
-      <h1>Бартеньев Никита</h1>
+      <h1>Бартенев Никита</h1>
     </div>
   )
 }

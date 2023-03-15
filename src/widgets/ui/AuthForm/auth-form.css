@@ -4,20 +4,25 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 25%;
+    width: 380px;
     border-radius: 25px;
     animation: form-blur 2s ease-in-out infinite alternate;
 }
 
 .form__input {
-    font-size: 16px;
+    font-size: 20px;
     padding: 5px;
+    width: 100%;
     border: none;
     border-bottom: 1px solid rgba(30, 31, 33, 0.6);
     margin-bottom: 35px;
+    color: black;
 }
 .form__input:focus {
     outline: none;
+}
+.form__input::placeholder {
+    color: #54545B;
 }
 
 

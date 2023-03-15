@@ -1,16 +1,18 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import {
   AccountInfo,
   NavAdminEmployeeBase,
-  NavAdminProjectBase,
+  NavAdminProjectBase, NavAgreement,
   NavChart,
   NavMainMenu,
   NavResearchBase,
 } from '../../../entities'
-import { BurgerMenuIcon, SftLogo } from '../../../shared'
+import { BurgerMenuIcon, Context, SftLogo } from '../../../shared'
 import './nav-menu.css'
 
 export const NavMenu = () => {
+
+  const {authStore: {user}} = useContext(Context)
 
   const [active, setActive] = useState(false)
 
@@ -23,17 +25,23 @@ export const NavMenu = () => {
       <AccountInfo />
       <ul className='nav-menu__links'>
         <li><NavMainMenu /></li>
-        <li><NavResearchBase /></li>
+        {<li>{user?.role === 'pepsico' ? <NavAgreement /> : <NavResearchBase />}</li>}
         <li><NavChart /></li>
       </ul>
-      <>
-        <hr />
-        <h1 className='admin-h1'>Admin-панель</h1>
-      </>
-      <ul className='nav-menu__links'>
-        <li><NavAdminEmployeeBase /></li>
-        <li><NavAdminProjectBase /></li>
-      </ul>
+      {
+        user?.role === 'admin' ?
+          <>
+          <>
+            <hr />
+            <h1 className='admin-h1'>Admin-панель</h1>
+          </>
+          <ul className='nav-menu__links'>
+            <li><NavAdminEmployeeBase /></li>
+            <li><NavAdminProjectBase /></li>
+          </ul>
+          </>
+        : null
+      }
     </nav>
   )
 }

@@ -1,0 +1,54 @@
+.user-base {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E1F22;
+    min-height: calc(100% - 45px);
+}
+
+.greeting {
+    margin-bottom: 50px;
+}
+
+.greeting h1 {
+    font-size: 20px;
+}
+
+.user-base__title h1{
+    color: white;
+    font-size: 36px;
+}
+
+.user-base__card {
+    width: 80%;
+    padding: 0 100px 50px;
+}
+
+.user-base__card__btn-plus {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+}
+.user-base__card__btn-plus button {
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    border: 1px dashed rgba(255, 255, 255, 0.5);
+    background-color: #1E1F21;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.user-base__card__btn-plus button:hover {
+    background-color: #2A2B2D;
+    border: 1px solid #9bc2f7;
+    box-shadow: 0 0 0 2px rgb(149 189 243 / 50%);
+}
+
+.user-base__card table {
+    width: 100%;
+}

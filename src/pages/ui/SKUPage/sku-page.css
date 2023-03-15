@@ -1,0 +1,49 @@
+.admin-project {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.admin-project div {
+    min-width: 30%;
+    padding: 50px;
+    background-color: #2A2B2D;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+}
+
+.admin-project div button {
+    cursor: pointer;
+    width: 100%;
+    background-color: #1E1F21;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    transition: all 0.3s;
+}
+.admin-project div button:hover {
+    background-color: #006944;
+}
+.admin-project div button:focus {
+    outline: none;
+}
+.admin-project div button img {
+    width: 58px;
+    height: 68px;
+}
+
+.admin-project__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.admin-project__list li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.admin-project__list li h1 {
+    color: white;
+    font-size: 24px;
+}

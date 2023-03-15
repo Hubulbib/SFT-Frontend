@@ -3,10 +3,10 @@ import { WorkplaceProjectAgreement } from '../WorkplaceProjectAgreement/Workplac
 import { ProjectHistory } from '../ProjectHistory/ProjectHistory'
 import './workplace-project.css'
 
-export const WorkplaceProject = () => {
+export const WorkplaceProject = ({isPepsiCo = false}) => {
   return (
-    <div className='workplace-project'>
-      <WorkplaceProjectAgreement />
+    <div className='workplace-project' id='a1'>
+      <WorkplaceProjectAgreement isPepsiCo={isPepsiCo}/>
       <ProjectHistory />
     </div>
   )

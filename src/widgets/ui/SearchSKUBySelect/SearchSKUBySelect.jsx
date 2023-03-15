@@ -23,7 +23,7 @@ export const SearchSKUBySelect = () => {
 
   return (
     <div className='search-sku-page__content__by-select'>
-        <h1>Введите номер SKU</h1>
+        <h1>Выберите SKU</h1>
         <ul>
           <li><SelectChoose value={product} setValue={setProduct} list={ProductList}/></li>
           <li><SelectChoose value={project} setValue={setProject} list={ProjectList}/></li>

@@ -12,9 +12,9 @@ export const PickColor = ({value, setValue}) => {
 
   return (
     <select className='pick-color' value={value} onChange={e => setValue(e.target.value)} style={bgColor === '#FFFFFF' ? {color: '#000000',backgroundColor: bgColor} : {backgroundColor: bgColor}}>
-      <option value='small'>Малые</option>
+      <option value='small'>Низкие</option>
       <option value='middle'>Средние</option>
-      <option value='big'>Большие</option>
+      <option value='big'>Высокие</option>
       <option value='none'>Нет данных</option>
     </select>
   )

@@ -1,0 +1,17 @@
+.choose-sku {
+    padding: 40px 150px;
+    display: flex;
+}
+
+.choose-sku > h1 {
+    font-size: 40px;
+    color: #A5A5A7;
+}
+
+.choose-sku__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+}

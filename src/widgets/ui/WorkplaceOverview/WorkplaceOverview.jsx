@@ -4,12 +4,12 @@ import { ProjectFileBlock } from '../ProjectFileBlock/ProjectFileBlock'
 import { ProjectStageBlock } from '../ProjectStageBlock/ProjectStageBlock'
 import './workplace-overview.css'
 
-export const WorkplaceOverview = () => {
+export const WorkplaceOverview = ({isPepsiCo = false}) => {
   return (
     <div className='workplace-overview'>
-      <ProjectMemberBlock />
-      <ProjectFileBlock />
-      <ProjectStageBlock />
+      <ProjectMemberBlock isPepsiCo={isPepsiCo}/>
+      <ProjectFileBlock isPepsiCo={isPepsiCo}/>
+      <ProjectStageBlock isPepsiCo={isPepsiCo}/>
     </div>
   )
 }

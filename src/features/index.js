@@ -7,15 +7,9 @@ import {AddMemberButton} from './ui/AddMemeberButton/AddMemberButton'
 import {AgreementButton} from './ui/AgreementButton/AgreementButton'
 import {ShowMoreButton} from './ui/ShowMoreButton/ShowMoreButton'
 import {SearchChanges} from './ui/SearchChanges/SearchChanges'
-
-import {WorkplaceNavigationStore} from '../shared/lib/stores/WorkplaceNavigationStore'
-import {WorkplaceStore} from '../shared/lib/stores/WorkplaceStore'
+import AgreementIcon from './lib/assets/agreement-icon.svg'
 
 export {
   FormAuthButton, CreateSKUButton, SearchSKUByNumberButton, SearchSKUBySelectButton, WorkplaceTabBar,
-  AddMemberButton, AgreementButton, ShowMoreButton, SearchChanges
-}
-
-export {
-  WorkplaceNavigationStore, WorkplaceStore
+  AddMemberButton, AgreementButton, ShowMoreButton, SearchChanges, AgreementIcon
 }

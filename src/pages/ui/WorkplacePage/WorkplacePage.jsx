@@ -5,7 +5,7 @@ import { WorkplaceBar } from '../../../widgets'
 import { Context } from '../../../shared/lib/context/context'
 import './workplace-page.css'
 
-export const WorkplacePage = observer(() => {
+export const WorkplacePage = observer(({isPepsiCo = false}) => {
 
   const [tab, setTab] = useState('overview')
 
@@ -18,7 +18,7 @@ export const WorkplacePage = observer(() => {
   return (
     <div className='workplace-page'>
       <WorkplaceBar />
-      {WorkplaceChoose(tab)}
+      {WorkplaceChoose(tab, isPepsiCo)}
     </div>
   )
 })

@@ -4,7 +4,7 @@ import './research-base.css'
 export const ResearchBasePage = () => {
   return (
     <div className='research-base'>
-      <h1>Данная страница находится в разработке</h1>
+      <h1>Страница в стадии разработки</h1>
     </div>
   )
 }
